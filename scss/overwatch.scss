@@ -11,3 +11,13 @@ video {
   position: absolute;
   opacity: .5;
 }
+
+.container {
+  display: grid;
+  height: 600px; /*Make it responsive*/
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 168px 39px 140px 83px 1fr;
+}
+
+/*Minuto 14:09*/
