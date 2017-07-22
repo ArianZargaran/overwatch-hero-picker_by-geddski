@@ -6,5 +6,3 @@ Let's level up our UI chops by building the awesome hero picker UI in Overwatch 
 After cloning this repo be sure to follow along the accompanying video.
 
 Copyright 2017-2071 Dave Geddes (geddski) All rights reserved
-
-Min. 20
