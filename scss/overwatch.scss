@@ -9,15 +9,34 @@ body {
 video {
   height: 600px;
   position: absolute;
-  opacity: .5;
-}
+  opacity: .5;}
 
-.container {
+  .container {
+    display: grid;
+    height: 600px; /*Make it responsive*/
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 268px 39px 140px 83px 1fr; /*Make it responsive with percentages instead of px*/
+    grid-template-areas:
+    "top"
+    "countdown"
+    "selections"
+    "heroes"
+    "select";
+  }
+
+.selections {
   display: grid;
-  height: 600px; /*Make it responsive*/
-  width: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: 168px 39px 140px 83px 1fr;
-}
+  grid-area: selections;
+  grid-template-columns: repeat(6, 77px);
+  justify-content: center;
+  grid-column-gap: 29px;
+  }
+
+  .selection {
+    background: url(img/hero-portrait.png) no-repeat;
+    background-size: 100%;
+  }
+
 
 /*Minuto 14:09*/
