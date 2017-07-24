@@ -7,4 +7,4 @@ After cloning this repo be sure to follow along the accompanying video.
 
 Copyright 2017-2071 Dave Geddes (geddski) All rights reserved
 
-Min. 23:15
+Min. 23:15. Font and Dropdown arrow
