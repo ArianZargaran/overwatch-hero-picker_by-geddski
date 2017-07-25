@@ -6,10 +6,15 @@ body {
   }
 }
 
+@font-face {
+  font-family: Overwatch;
+  src: url("fonts/BigNoodleToo.ttf");
+}
+
 video {
   height: 600px;
   position: absolute;
-  opacity: .5;
+  opacity: .3;
 }
 
   .container {
@@ -44,6 +49,35 @@ video {
     background-repeat: no-repeat;
     background-size: 70%;
     clip-path: polygon(100% 0, 100% 58%, 79% 58%, 78% 68%, 51% 80%, 22% 68%, 23% 61%, 0 60%, 0 0);
+    margin-bottom: 10px;
     }
   }
-/*Minuto 23:15*/
+
+
+.info {
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+    .name {
+    font-family: Overwatch;
+    font-style: italic;
+    font-size: 18px;
+    color: #57f2ff;}
+    .hero-dropdown {
+      width: 11px;
+      height: 11px;
+      background:red;
+      border: 1px solid purple;
+      border-radius: 9px;
+      display: flex;
+      justify-content: center;
+      transform: scaleY(-1);
+      &::after{
+        content:"^";
+        color: purple;
+        font-family: Overwatch;
+      }
+  }
+}
+
+/*Minuto 27:00*/
