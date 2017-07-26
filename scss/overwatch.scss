@@ -57,7 +57,7 @@ video {
 .info {
     display: flex;
     align-items: center;
-    padding-left: 9px;
+    justify-content: center;
     .name {
     font-family: Overwatch;
     font-style: italic;
@@ -66,8 +66,7 @@ video {
     .hero-dropdown {
       width: 11px;
       height: 11px;
-      background:red;
-      border: 1px solid purple;
+      border: 1px solid #fff;
       border-radius: 9px;
       display: flex;
       justify-content: center;
@@ -79,5 +78,7 @@ video {
       }
   }
 }
+
+
 
 /*Minuto 27:00*/
