@@ -7,4 +7,4 @@ After cloning this repo be sure to follow along the accompanying video.
 
 Copyright 2017-2071 Dave Geddes (geddski) All rights reserved
 
-Min: 27:00. Font and dropdown menu
+Min: 39:00. Hover on button is not working.
