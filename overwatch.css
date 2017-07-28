@@ -1,13 +1,14 @@
+@font-face {
+  font-family: Overwatch;
+  src: url("fonts/BigNoodleToo.ttf"); }
 body {
   margin: 0;
   overflow: hidden; }
   body * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+            box-sizing: border-box;
+    font-family: Overwatch; }
 
-@font-face {
-  font-family: Overwatch;
-  src: url("fonts/BigNoodleToo.ttf"); }
 .container {
   background: url(img/bastion.jpg) no-repeat;
   background-size: cover;
@@ -53,7 +54,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
   .info .name {
-    font-family: Overwatch;
     font-style: italic;
     font-size: 18px;
     color: #57f2ff; }
@@ -65,7 +65,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 3px;
+    margin-left: 5px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -73,8 +73,7 @@ body {
             transform: scaleY(-1); }
     .info .hero-dropdown::after {
       content: "^";
-      color: #fff;
-      font-family: Overwatch; }
+      color: #fff; }
 
 .heroes {
   grid-area: heroes;
@@ -129,13 +128,11 @@ button {
   border: none;
   margin-top: 15px;
   font-size: 22px;
-  font-family: Overwatch;
   letter-spacing: 2px;
   color: #fff;
   background-color: #b47900; }
   button:hover {
-    background-color: #df9600 !important;
-    /*Issue. Not working*/ }
+    background-color: #df9600; }
 
 .gameinfo {
   display: -webkit-box;
@@ -148,11 +145,9 @@ button {
   .gameinfo .gametype {
     font-size: 90px;
     font-style: italic;
-    font-family: Overwatch;
     color: #ce1631; }
   .gameinfo .map {
     font-size: 28px;
-    font-family: Overwatch;
     font-style: italic;
     color: #fff;
     position: relative;
@@ -161,12 +156,11 @@ button {
   .gameinfo .character {
     font-size: 55px;
     font-style: italic;
-    font-family: Overwatch;
     color: #fff;
     position: relative;
     top: 13px;
     left: -12px; }
 
-/*Minuto 39:00*/
+/**/
 
 /*# sourceMappingURL=overwatch.css.map */

@@ -1,14 +1,15 @@
+@font-face {
+  font-family: Overwatch;
+  src: url("fonts/BigNoodleToo.ttf");
+}
+
 body {
   margin: 0;
   overflow: hidden;
   * {
     box-sizing: border-box;
+    font-family: Overwatch;
   }
-}
-
-@font-face {
-  font-family: Overwatch;
-  src: url("fonts/BigNoodleToo.ttf");
 }
 
   .container {
@@ -55,7 +56,6 @@ body {
     align-items: center;
     justify-content: center;
     .name {
-    font-family: Overwatch;
     font-style: italic;
     font-size: 18px;
     color: #57f2ff;}
@@ -65,13 +65,12 @@ body {
       border: 1px solid #fff;
       border-radius: 9px;
       display: flex;
-      margin-left: 3px;
+      margin-left: 5px;
       justify-content: center;
       transform: scaleY(-1);
       &::after{
         content:"^";
         color: #fff;
-        font-family: Overwatch;
       }
   }
 }
@@ -119,12 +118,11 @@ transition-duration: 25ms;
     border: none;
     margin-top: 15px;
     font-size: 22px;
-    font-family: Overwatch;
     letter-spacing: 2px;
     color: #fff;
     background-color: #b47900;
     &:hover {
-      background-color: #df9600 !important; /*Issue. Not working*/
+      background-color: #df9600;
       }
     }
 
@@ -135,12 +133,10 @@ transition-duration: 25ms;
     .gametype {
       font-size: 90px;
       font-style: italic;
-      font-family: Overwatch;
       color: #ce1631;
     }
     .map {
       font-size: 28px;
-      font-family: Overwatch;
       font-style: italic;
       color: #fff;
       position: relative;
@@ -150,7 +146,6 @@ transition-duration: 25ms;
     .character {
       font-size: 55px;
       font-style: italic;
-      font-family: Overwatch;
       color: #fff;
       position: relative;
       top: 13px;
@@ -158,4 +153,4 @@ transition-duration: 25ms;
     }
   }
 
-/*Minuto 39:00*/
+  /**/
